@@ -27,10 +27,10 @@ export function Footer() {
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-[#7a8299]">
               AI-assisted oral cancer screening designed for modern clinical workflows. For screening assistance only — all results require clinician review.
             </p>
-            <div className="mt-5 flex items-center gap-2 text-sm text-[#7a8299]">
-              <ShieldCheck className="h-4 w-4 text-[#6dbf8f]" />
-              HIPAA-minded design
-            </div>
+            {/* <div className="mt-5 flex items-center gap-2 text-sm text-[#7a8299]">
+              
+              
+            </div> */}
           </div>
 
           {/* Navigation column */}

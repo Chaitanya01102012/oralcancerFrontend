@@ -196,7 +196,8 @@ export default function HomePage() {
               {[
                 ["6", "Lesion classes"],
                 ["PDF", "Auto-reports"],
-                ["HIPAA-", "minded UX"],
+                ["<2s", "Inference time"],
+                
               ].map(([a, b]) => (
                 <div key={a} className="rounded-2xl border border-[#6dbf8f]/15 bg-[#6dbf8f]/10 px-3 py-4 backdrop-blur-sm">
                   <p className="text-lg font-bold text-[#6dbf8f]">{a}</p>
