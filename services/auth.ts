@@ -27,3 +27,22 @@ export async function getMe() {
   const { data } = await api.get<ApiMessage<AuthUser>>("/auth/me");
   return data.data;
 }
+
+export async function forgotPassword(email: string) {
+  const { data } = await api.post<ApiMessage>("/auth/forgot-password", { email });
+  return data;
+}
+
+export async function verifyOtp(email: string, otp_code: string) {
+  const { data } = await api.post<ApiMessage>("/auth/verify-otp", { email, otp_code });
+  return data;
+}
+
+export async function resetPassword(email: string, otp_code: string, new_password: string) {
+  const { data } = await api.post<ApiMessage>("/auth/reset-password", {
+    email,
+    otp_code,
+    new_password,
+  });
+  return data;
+}
