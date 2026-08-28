@@ -42,7 +42,7 @@ export function UploadBox({ file, onChange }: Props) {
       >
         <ImagePlus className="mb-3 h-10 w-10 text-[#6dbf8f]" />
         <p className="font-medium text-white">Drag & drop an oral image</p>
-        <p className="mt-1 text-sm text-[#7a8299]">PNG, JPG, or WEBP up to 10MB</p>
+        <p className="mt-1 text-sm text-[#7a8299]">PNG or JPG up to 10MB</p>
         <label className="mt-4 cursor-pointer">
           <input
             type="file"
